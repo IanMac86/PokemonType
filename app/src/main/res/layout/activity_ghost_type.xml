@@ -51,7 +51,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Weak Against - Normal, Dark "
+        android:text="Weak Against - Normal, Dark, Ghost "
         android:textColor="@color/colorBase2"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

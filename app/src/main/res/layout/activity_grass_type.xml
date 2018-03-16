@@ -28,7 +28,7 @@
     <TextView
         android:id="@+id/textView30"
         android:layout_width="218dp"
-        android:layout_height="70dp"
+        android:layout_height="66dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
@@ -40,7 +40,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView29"
-        app:layout_constraintVertical_bias="0.352" />
+        app:layout_constraintVertical_bias="0.034" />
 
     <TextView
         android:id="@+id/textView31"
@@ -50,7 +50,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Weak Against - Flying, Poison, Bug, Steel, Fire, Grass, Dragon"
+        android:text="Weak Against - Flying, Poison, Bug, Steel, Fire, Grass, Dragon, Ice"
         android:textColor="@color/colorBase"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

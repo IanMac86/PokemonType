@@ -51,7 +51,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Weak Against - Fighting, Flying, Poison, Ghost, Steel, Fire, Fairy"
+        android:text="Weak Against - Fighting, Flying, Poison, Ghost, Steel, Fire, Fairy,Rock"
         android:textColor="@color/colorBase"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

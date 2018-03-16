@@ -50,7 +50,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Weak Against - Steel, Fairy"
+        android:text="Weak Against - Steel, Fairy, Ice, Dragon"
         android:textColor="@color/colorBase2"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -51,7 +51,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Weak Against - Rock, Fire, Water, Dragon"
+        android:text="Weak Against - Rock, Ground, Water, Dragon"
         android:textColor="@color/colorBase"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"

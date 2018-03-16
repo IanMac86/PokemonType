@@ -105,14 +105,20 @@ spinner.setOnItemSelectedListener(this);
                 startActivity(intent);
                 break;
             }
-            case "Electric":{Intent intent = new Intent (this,electricType.class
+
+            case "Steel":{Intent intent = new Intent (this,steelType.class
+            );
+                startActivity(intent);
+                break;
+            }
+            case "Water":{Intent intent = new Intent (this,waterType.class
             );
                 startActivity(intent);
                 break;
             }
 
 
-        }
+        }//Switch for spinner to link to the "Pokemon"Class
         //Intent intent = new Intent (this,sSelected.Class);
         //startActivity(intent);
 
