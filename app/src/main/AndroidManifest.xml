@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ian.poketype">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/pokeball"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Menu1" >
+        </activity>
+
+        <activity android:name=".bugType" />
+        <activity android:name=".darkType" />
+        <activity android:name=".fireType" />
+        <activity android:name=".fairyType" />
+        <activity android:name=".fightingType" />
+        <activity android:name=".flyType" />
+        <activity android:name=".grassType" />
+        <activity android:name=".groundType" />
+        <activity android:name=".dragonType" />
+        <activity android:name=".ghostType" />
+        <activity android:name=".electricType" />
+        <activity android:name=".rockType" />
+        <activity android:name=".waterType" />
+        <activity android:name=".iceType" />
+        <activity android:name=".poisonType" />
+        <activity android:name=".normalType" />
+        <activity android:name=".steelType"></activity>
+    </application>
+
+</manifest>
