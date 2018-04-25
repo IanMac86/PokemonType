@@ -20,21 +20,27 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
+        openPickMenu();
+
+
+    }
+
+    public void openPickMenu() {
 
         button = (Button) findViewById(R.id.MyButton);
-
-
         button.setOnClickListener(new OnClickListener() {
             public void onClick(View arg0) {
-
+//
+//                startActivity(new Intent(MainActivity.this, pickMenu.class));
+//
 
                 Intent myIntent = new Intent(MainActivity.this,
-                        Menu1.class);
+                        pickMenu.class);
                 startActivity(myIntent);
             }
         });
-    }
 
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.activity_main, menu);

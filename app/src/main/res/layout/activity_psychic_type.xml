@@ -4,63 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ian.poketype.Menu1"
-    android:background="@drawable/icontype"
+    tools:context="com.example.ian.poketype.psychicType"
+    android:background="@drawable/psytype"
     >
 
+
+
     <TextView
-        android:id="@+id/type"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/textView29"
+        android:layout_width="210dp"
+        android:layout_height="38dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Type vs Type"
-        android:textAllCaps="true"
-        android:textColor="@color/colorBase"
-        android:textSize="22sp"
-        android:textStyle="bold"
+        android:text="Psychic Types"
+        android:textColor="@color/colorBase2"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.035" />
+        app:layout_constraintVertical_bias="0.078" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="185dp"
-        android:layout_height="49dp"
+        android:id="@+id/textView30"
+        android:layout_width="218dp"
+        android:layout_height="66dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Please pick a type below.."
-        android:textAlignment="center"
-        android:textColor="@color/colorBase"
+        android:text="Strong Against - Fighting, Poison "
+        android:textColor="@color/colorBase2"
         android:textSize="18sp"
-        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/type"
-        app:layout_constraintVertical_bias="0.032" />
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.0" />
 
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="339dp"
-        android:layout_height="60dp"
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="212dp"
+        android:layout_height="75dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:text="Weak Against - Steel, Psychic, Bug, Ghost, Dark"
+        android:textColor="@color/colorBase2"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.083" />
-        //android:entries="@array/Types"
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:layout_constraintVertical_bias="0.825" />
 
 </android.support.constraint.ConstraintLayout>
+
+

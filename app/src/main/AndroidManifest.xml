@@ -2,9 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ian.poketype">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/pokeball"
+        android:icon="@mipmap/pball"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
@@ -16,9 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu1" >
-        </activity>
-
+        <activity android:name=".Menu1" />
         <activity android:name=".bugType" />
         <activity android:name=".darkType" />
         <activity android:name=".fireType" />
@@ -35,7 +35,11 @@
         <activity android:name=".iceType" />
         <activity android:name=".poisonType" />
         <activity android:name=".normalType" />
-        <activity android:name=".steelType"></activity>
+        <activity android:name=".steelType" />
+        <activity android:name=".psychicType" />
+        <activity android:name=".pickMenu" />
+        <activity android:name=".PokeDex" />
+        <activity android:name=".pokemon"></activity>
     </application>
 
 </manifest>

@@ -100,6 +100,20 @@ spinner.setOnItemSelectedListener(this);
                 startActivity(intent);
                 break;
             }
+            case "Poison":{Intent intent;
+                intent = new Intent(this,poisonType.class
+                );
+                startActivity(intent);
+                break;
+            }
+
+            case "Psychic":{Intent intent;
+                intent = new Intent(this,psychicType.class
+                );
+                startActivity(intent);
+                break;
+            }
+
             case "Rock":{Intent intent = new Intent (this,rockType.class
             );
                 startActivity(intent);
